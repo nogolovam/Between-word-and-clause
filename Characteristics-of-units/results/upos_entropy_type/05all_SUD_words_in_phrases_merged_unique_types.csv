@@ -1,0 +1,12 @@
+Total Words in Parent (x),Count (N),Pos 1 Unique Types,Pos 2 Unique Types,Pos 3 Unique Types,Pos 4 Unique Types,Pos 5 Unique Types,Pos 6 Unique Types,Pos 7 Unique Types,Pos 8 Unique Types,Pos 9 Unique Types,Pos 10 Unique Types,Pos 11 Unique Types,Pos 12 Unique Types,Pos 13 Unique Types
+1,177174,14
+2,243196,14,14
+3,77851,13,13,14
+4,43376,12,13,14,14
+5,25668,12,13,12,12,13
+6,15876,12,13,13,13,12,13
+7,10456,12,12,12,12,12,13,12
+8,6810,12,12,12,12,12,12,12,12
+9,7610,12,12,12,13,12,12,12,12,13
+11,3714,12,12,12,12,12,12,12,12,12,12,12
+13,3564,12,12,12,12,12,13,12,12,12,12,12,12,13
