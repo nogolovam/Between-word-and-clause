@@ -1,0 +1,62 @@
+import os
+import pandas as pd
+import SUD_analysis as S
+import SUD_parser_main_clause as SUD_parser
+
+main_directory = 'C:/Users/nogol/Documents/Doktorat/corpora240717/SUD/processed/260403_saved/'
+
+def export_distribuce(file_directory):
+    all_files = os.listdir(file_directory)
+    print(f"Total files in directory: {len(all_files)}")
+
+    pickle_list = list(filter(lambda x: '.pkl' in x, os.listdir(file_directory)))
+    print(f"Found {len(pickle_list)} .pkl files: {pickle_list}")
+    for pickle_file in pickle_list:
+        parts = pickle_file.split('/')
+        name = parts[-1].split('.')[0]
+        print("Distribuce: start with " + name)
+
+        #a_treebank = SUD_parser.load_treebank_pkl(file_directory + '/' + pickle_file)
+
+        #units = ["sentence", "main_clause", "clause", "phrase", "big_chunk", "chunk"]
+        units = ["phrase", "big_chunk", "chunk"]
+        #cathegory = ['jen_filtr', 'bez_conj', 'bez_conj1', 'bez_conj2', 'bez_conj3']
+        cathegory = ['bez_conj1']
+
+        for k in cathegory:
+            pocitadlo = 1
+            for unit in units:
+                #make distribuce
+                path = f'C:/Users/nogol/Documents/Doktorat/Analyzy/SUD/vysledky260820/0{pocitadlo}{unit}'
+                if not os.path.exists(path):
+                    os.makedirs(path)
+                #S.get_deprel_distribuce(a_treebank, path, name, k, unit)
+                #S.get_distribuce(a_treebank, path, name, k, unit)
+                #S.process_units(a_treebank, path, name, k, unit)
+                #S.get_frequency_distribuce(a_treebank, path, name, k, unit)
+                pocitadlo += 1
+
+                # make NLREG files wordforms and save results
+                #input_folder_word_form = path + '/word_form'
+                #output_folder_word_form = path + '/word_form/NLREG'
+
+                input_folder_word_form = path + '/word_form_Mandelbrot'
+                output_folder_word_form = path + '/word_form_Mandelbrot/NLREG'
+                if not os.path.exists(output_folder_word_form):
+                    os.makedirs(output_folder_word_form)
+                S.process_csv_files(input_folder_word_form, output_folder_word_form)
+                S.process_lst_files_dis(output_folder_word_form, output_csv=output_folder_word_form)
+
+                #prepare length csv for fitting
+                #input_folder_len = path + '/length'
+                #output_folder_len = path + '/length_f_fit'
+                #if not os.path.exists(output_folder_len):
+                    #os.makedirs(output_folder_len)
+
+                # Call the function to load and sort the CSV files
+                #S.load_and_sort_csv_files(input_folder_len, output_folder_len)
+
+
+
+#Change the directory of treebanks HERE (distribuce)
+export_distribuce(main_directory)
