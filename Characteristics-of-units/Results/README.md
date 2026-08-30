@@ -48,7 +48,7 @@ To find a table, answer three questions in this order:
 
 The hierarchy used throughout is
 
-> sentence — independent clause — clause — **phrase** — **subphrase** — **chunk** — **word** — syllable — phoneme
+> sentence – independent clause – clause – **phrase** – **subphrase** – **chunk** – **word** – syllable – phoneme
 
 The independent clause is not analysed in this part of the thesis.
 
