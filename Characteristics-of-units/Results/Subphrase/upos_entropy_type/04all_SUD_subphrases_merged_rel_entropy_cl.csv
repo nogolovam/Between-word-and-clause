@@ -1,0 +1,7 @@
+Weighted Avg Units (x),Count (N),Pos 1 Relative Entropy,Pos 2 Relative Entropy,Pos 3 Relative Entropy,Pos 4 Relative Entropy,Pos 5 Relative Entropy,Pos 6 Relative Entropy
+1.0,30654,0.5544
+2.0,79393,0.5134,0.6007
+3.0,74791,0.5378,0.5101,0.6056
+4.0,39584,0.5899,0.5359,0.5481,0.6399
+5.0,15400,0.6464,0.5917,0.5977,0.6154,0.6961
+6.51,7769,0.7005,0.6527,0.6491,0.6662,0.6851,0.7231

@@ -1,0 +1,16 @@
+Weighted Parent Size,Count (N),Pos 1 - Normalized Unique Sequences,Pos 2 - Normalized Unique Sequences,Pos 3 - Normalized Unique Sequences,Pos 4 - Normalized Unique Sequences,Pos 5 - Normalized Unique Sequences,Pos 6 - Normalized Unique Sequences,Pos 7 - Normalized Unique Sequences,Pos 8 - Normalized Unique Sequences,Pos 9 - Normalized Unique Sequences,Pos 10 - Normalized Unique Sequences,Pos 11 - Normalized Unique Sequences,Pos 12 - Normalized Unique Sequences,Pos 13 - Normalized Unique Sequences,Pos 14 - Normalized Unique Sequences,Pos 15 - Normalized Unique Sequences,Pos 16 - Normalized Unique Sequences,Pos 17 - Normalized Unique Sequences,Pos 18 - Normalized Unique Sequences,Pos 19 - Normalized Unique Sequences
+1.7497,8739,0.0956,0.2699
+3.0,10255,0.1706,0.2296,0.2858
+4.0,13203,0.2071,0.2446,0.2408,0.3252
+5.0,13429,0.1996,0.2521,0.2418,0.2474,0.3289
+6.0,12723,0.1987,0.2521,0.2324,0.2605,0.2493,0.3036
+7.0,11633,0.193,0.239,0.2249,0.239,0.2493,0.2408,0.2783
+8.0,10572,0.1921,0.2202,0.2043,0.2333,0.2324,0.2437,0.2324,0.2661
+9.0,9641,0.1706,0.2127,0.208,0.2127,0.2155,0.224,0.2287,0.2343,0.2615
+10.0,8064,0.1593,0.2034,0.1827,0.2043,0.209,0.2071,0.1996,0.2043,0.2127,0.239
+11.0,7012,0.1687,0.1809,0.1827,0.1781,0.1865,0.1949,0.2005,0.1921,0.1902,0.1987,0.2277
+12.0,5559,0.1462,0.1724,0.1509,0.1612,0.1706,0.1771,0.1846,0.1771,0.1902,0.1668,0.1621,0.2099
+13.0,4544,0.1387,0.1593,0.1406,0.1546,0.1499,0.1584,0.1631,0.1659,0.1621,0.164,0.1537,0.1621,0.1827
+14.4419,6614,0.1471,0.1827,0.1602,0.1743,0.1884,0.179,0.1884,0.1799,0.1865,0.2005,0.1837,0.1959,0.1921,0.2474
+16.8253,5484,0.1443,0.1706,0.1434,0.164,0.1771,0.1743,0.1715,0.1687,0.1865,0.1659,0.1706,0.1846,0.1752,0.1687,0.1762,0.2596
+22.171,4539,0.1406,0.1621,0.1424,0.149,0.164,0.1593,0.1612,0.1415,0.1771,0.1602,0.1631,0.1593,0.1574,0.1715,0.1706,0.1781,0.1696,0.1659,0.3411

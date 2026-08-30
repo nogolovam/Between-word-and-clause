@@ -1,0 +1,7 @@
+Weighted Parent Size,Count (N),Pos 1 - Avg Subphrases,Pos 2 - Avg Subphrases,Pos 3 - Avg Subphrases,Pos 4 - Avg Subphrases,Pos 5 - Avg Subphrases,Pos 6 - Avg Subphrases
+1.0,40389,1.3517
+2.0,94272,1.0954,1.2437
+3.0,75283,1.0851,1.0297,1.2251
+4.0,29242,1.0892,1.0197,1.0307,1.1911
+5.0,7056,1.0829,1.0188,1.0204,1.0448,1.184
+6.1268,1349,1.0971,1.0289,1.02,1.0363,1.0393,1.1625

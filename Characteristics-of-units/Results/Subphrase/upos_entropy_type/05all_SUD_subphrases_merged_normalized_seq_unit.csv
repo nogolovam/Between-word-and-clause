@@ -1,0 +1,8 @@
+Weighted Parent Size,Count (N),Pos 1 - Normalized Unique Tags,Pos 2 - Normalized Unique Tags,Pos 3 - Normalized Unique Tags,Pos 4 - Normalized Unique Tags,Pos 5 - Normalized Unique Tags,Pos 6 - Normalized Unique Tags,Pos 7 - Normalized Unique Tags
+1.0,211281,0.0088
+2.0,266835,0.0088,0.0088
+3.0,117888,0.0082,0.0082,0.0088
+4.0,58437,0.0082,0.0082,0.0082,0.0088
+5.0,26112,0.0075,0.0082,0.0075,0.0075,0.0082
+6.0,11508,0.0075,0.0082,0.0075,0.0082,0.0075,0.0082
+7.644,7692,0.0075,0.0082,0.0075,0.0075,0.0075,0.0082,0.0082
