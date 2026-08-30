@@ -12,10 +12,7 @@ The properties tested are **length**, **degree of embedding**, and the
 **phrase**, the **subphrase**, the **chunk** and the **word**.
 
 These are the full tables behind **Chapter 3, *Characteristics of units and
-their position in the tree***, and behind all twelve of its result figures
-(§6.5 maps each figure to its files). All counts here are **tokens** — see the
-note on types in §8, which explains why these totals differ from the
-frequencies in the Menzerath-Altmann tables of Chapter 1.
+their position in the tree***.
 
 ---
 
