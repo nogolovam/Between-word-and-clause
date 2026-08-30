@@ -1,4 +1,4 @@
-# Characteristics of units — results tables
+# Characteristics of units – results tables
 
 Positional results for the PhD thesis *Between word and clause* (written
 Czech, SUD annotation). Every table in this folder answers one version of a
